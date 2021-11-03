@@ -1,19 +1,7 @@
 public class BonusMilesService {
     public int calculate(int cost) {
-        int mile = 2000/20;
-        return mile;
+        int miles;
+        miles = cost / 20;
+        return miles;
     }
 }
-
-//public class Main {
-//    public static void main(String[] args) {
-//
-//        int ticketPrice = 2000;
-//        byte bonusMile = 20;
-//        int mile;
-//
-//        mile = ticketPrice / bonusMile;
-//        System.out.println(mile);
-//
-//    }
-//}
